@@ -1,0 +1,13 @@
+#pages {
+  > * {
+    display: none;
+  }
+
+  > .active {
+    display: block;
+  }
+}
+
+.product-widget.container{
+  margin-bottom: 15vw;
+}
