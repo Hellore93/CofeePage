@@ -62,29 +62,28 @@
     </script>
 
     <script id="template-products-widget" type="text/x-handlebars-template">
-    <div class="product-widget container">
-      <article class="box-right">
-        <div class="box-image">
-        {{{ images }}}
+      <div class="product-widget container">
+        <article class="box-right">
+          <div class="box-image">
+            {{{ images }}}
           </div>
           <div class="box-description">
-            <h3 class="name">{{{ no }}} {{{ name }}}</h3>
-            <div class="row description">
-              <span>{{{ description }}}</span>
+          <h3 class="name">{{{ no }}} {{{ name }}}</h3>
+          <div class="row description">
+            <span>{{{ description }}}</span>
+          </div>
+          <div class="row">
+            <div class="specification">
+              <p>ROASTING: <span>{{{ roasting }}}</span></p>
+              <p>INTENSITY: <span>{{{ intensity }}}</span></p>
             </div>
-            <div class="row">
-              <div class="specification">
-                <p>ROASTING: <span>{{{ roasting }}}</span></p>
-                <p>INTENSITY: <span>{{{ intensity }}}</span></p>
-              </div>
-              <div class="popular">
-                {{{ most-popular }}}
-              </div>
+            <div class="popular">
+              {{{ most-popular }}}
             </div>
           </div>
-      </article>
-    </div>
-  </script>
+        </article>
+      </div>
+    </script>
 
   <script id="template-contact-widget" type="text/x-handlebars-template">
     <div class="contact-widget">
